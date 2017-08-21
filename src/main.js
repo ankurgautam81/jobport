@@ -1,15 +1,20 @@
-import _ from 'lodash';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/header';
+import About from './components/about';
+import Skills from './components/skills';
 
 
 class App extends React.Component {
 	
    render() {   
       return (
-         <div className="col-sm-12">
-            hi
-         </div>
+      	<div>
+         <Header />
+         <About />
+         <Skills />
+        </div>
       );
    }
 }
